@@ -1,0 +1,18 @@
+Sure, here's the contents for the file `/dogstagram/dogstagram/src/server/data/users.json`:
+
+{
+    "users": [
+        {
+            "username": "dog_lover123",
+            "profilePic": "https://placekitten.com/32/32",
+            "bio": "Dog enthusiast and proud owner of Max!",
+            "posts": []
+        },
+        {
+            "username": "goodboy_max",
+            "profilePic": "https://placekitten.com/32/32",
+            "bio": "Living my best dog life!",
+            "posts": []
+        }
+    ]
+}

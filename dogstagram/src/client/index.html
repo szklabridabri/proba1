@@ -1,0 +1,28 @@
+Sure, here's the proposed content for the file `src/client/index.html`:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogstagram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>🐶 Dogstagram</h1>
+    </nav>
+
+    <div class="container">
+        <div id="posts"></div>
+        <div class="add-post">
+            <input type="text" id="caption" placeholder="What's on your mind?">
+            <input type="file" id="image" accept="image/*">
+            <button onclick="addPost()">Post</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

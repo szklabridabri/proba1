@@ -1,0 +1,21 @@
+Sure, here's the contents for the file `/dogstagram/dogstagram/src/server/data/posts.json`:
+
+{
+    "posts": [
+        {
+            "id": 1,
+            "username": "goodboy_max",
+            "profilePic": "https://placekitten.com/32/32",
+            "image": "https://images.dog.ceo/breeds/retriever-golden/n02099601_7374.jpg",
+            "likes": 1234,
+            "caption": "Just chillin' in the park! 🐕 #doglife #goodboy",
+            "comments": [
+                {
+                    "username": "bella_pup",
+                    "text": "Looking awesome! 🐾"
+                }
+            ],
+            "isLiked": false
+        }
+    ]
+}

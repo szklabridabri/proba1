@@ -1,0 +1,17 @@
+{
+  "name": "dogstagram",
+  "version": "1.0.0",
+  "description": "A social media platform for dog lovers to share their posts and interact with others.",
+  "main": "src/server/app.js",
+  "scripts": {
+    "start": "node src/server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "body-parser": "^1.19.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
